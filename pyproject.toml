@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "001-langgraph-round2"
+version = "0.1.0"
+description = ""
+authors = ["julio4ai <juliocolomer@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyterlab = "^4.3.3"
+langchain = "^0.3.11"
+langchain-openai = "^0.2.12"
+python-dotenv = "^1.0.1"
+langgraph = "^0.2.58"
+langgraph-checkpoint-sqlite = "^2.0.1"
+langgraph-sdk = "^0.1.43"
+langsmith = "^0.2.2"
+langchain-community = "^0.3.11"
+langchain-core = "^0.3.24"
+notebook = "^7.3.1"
+tavily-python = "^0.5.0"
+wikipedia = "^1.4.0"
+trustcall = "^0.0.26"
+langgraph-cli = "^0.1.61"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
